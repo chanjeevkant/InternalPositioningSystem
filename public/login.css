@@ -1,0 +1,43 @@
+body{
+text-align: center;
+background-color: #51c2d5;
+}
+
+
+
+
+
+.card{
+  width: 30rem;
+  height: 133%;
+  position: absolute;
+margin-left: 19%;
+}
+.loginbutton{
+  margin-top: 10%;
+}
+.loginicon{
+width: 30%;
+}
+.bgimage{
+  position: absolute;
+margin-right: 20%;
+z-index: -1;
+transform: rotate(180deg);
+}
+.card-title{
+  position: absolute;
+  margin-top: 30%;
+  z-index: 1;
+  margin-left: 15%;
+}
+
+.btn {
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  background: #b8b5ff;
+  border: none;
+  border-radius: 5px;
+  padding: 3%;
+}

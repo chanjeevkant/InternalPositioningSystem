@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="css\login1.css">
+</head>
+
+<body>
+  <div class="header">
+    <h2>Register</h2>
+  </div>
+
+  <div class="container">
+
+      <form id="signup" action="index.php" class="form" method="post" >
+          <h1>Sign Up</h1>
+          <div class="form-field input-group">
+              <label for="username">Username:</label>
+              <input type="text" name="username" id="username" autocomplete="off" required>
+              <small></small>
+          </div>
+
+          <div class="form-field input-group">
+              <label for="Email">Email:</label>
+              <input type="text" name="email" id="email" autocomplete="off" required>
+              <small></small>
+          </div>
+
+          <div class="form-field input-group">
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" autocomplete="off" required>
+              <small></small>
+          </div>
+
+
+          <div class="form-field input-group">
+              <label for="username">Confirm Password:</label>
+              <input type="password" name="cnfmpass" id="confirm-password" autocomplete="off" required>
+              <small></small>
+          </div>
+
+          <div class="form-field ">
+              <input id="submit" name="submit" class="btn" type="submit" value="Sign Up">
+          </div>
+      </form>
+  </div>
+  <script src="login1.js" charset="utf-8"></script>
+
+
+  </div>
+</body>
+
+</html>

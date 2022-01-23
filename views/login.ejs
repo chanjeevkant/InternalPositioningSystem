@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Loginerror</title>
+    <style media="screen">
+      .failure{
+        text-align: center;
+        color:palegreen:
+      }
+    </style>
+  </head>
+  <body>
+    <div  class="failure">
+      <h1 style="color:red"> <%=oops%>Login was unsucessful</h1>
+      <h2 style="color:blue">Please make sure you enter the correct username and email</h2>
+      <form class="" action="/loginerr" method="post">
+        <input type="submit" name="goback" value="Go back">
+      </form>
+    </div>
+  </body>
+</html>
